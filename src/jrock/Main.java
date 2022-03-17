@@ -40,6 +40,8 @@ public class Main {
                 if(computerChoice == 1) System.out.println("  You lose!");
                 else System.out.println("  You win!");
                 break;
+            case 15052004:
+                System.out.println("  You found another fazzoura!");
             default:
                 System.out.println("  Please choose correctly.");
         }
