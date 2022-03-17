@@ -16,7 +16,28 @@ public class Main {
         System.out.print("  > ");
         int choice = input.nextInt();
         int computerChoice = (int)(Math.random() * 10) % 3;
-        String[] options = {"Rock", "Paper", "Scissors"};
+        computerChoice++;
+        String[] options = {"@jihedkdiss", "Rock", "Paper", "Scissors"};
         System.out.println("Computer choice is: " + options[computerChoice]);
+        if (choice == computerChoice) {
+            System.out.println("No one wins!");
+            System.exit(0);
+        }
+        switch (choice) {
+            case 1:
+                if(computerChoice == 2) System.out.println("You lose!");
+                else System.out.println("You win!");
+                break;
+            case 2:
+                if(computerChoice == 3) System.out.println("You lose!");
+                else System.out.println("You win!");
+                break;
+            case 3:
+                if(computerChoice == 1) System.out.println("You lose!");
+                else System.out.println("You win!");
+                break;
+            default:
+                System.out.println("Please choose correctly.");
+        }
     }
 }
