@@ -15,5 +15,8 @@ public class Main {
         System.out.println("3. Scissors");
         System.out.print("  > ");
         int choice = input.nextInt();
+        int computerChoice = (int)(Math.random() * 10) % 3;
+        String[] options = {"Rock", "Paper", "Scissors"};
+        System.out.println("Computer choice is: " + options[computerChoice]);
     }
 }
