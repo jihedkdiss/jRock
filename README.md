@@ -41,6 +41,11 @@
 Internet access is not required. Bug reports, suggestions and tips are always welcome!
 Star this repository! 🌟
 
+### Features
+
+* Simple, easy, and straight to the point.
+* AI is on his way with a GUI
+* Fair results (totally random) but not for long ;)
 
 ### Built With
 
